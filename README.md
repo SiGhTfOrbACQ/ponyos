@@ -10,3 +10,5 @@ PonyOS is derived from [とあるOS](http://toaruos.org) and is released under t
 
 The wallpaper that comes with PonyOS is by BlueDragonHans and is released under the terms of the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License (distribution in this form does not qualify as a derivative work).
 
+Pony art used for icons by KiNcHeFF (Terminal icon, CC BY) and ZuTheSkunk (Julia Fractal icon and Draw icon, CC BY-NC-SA)
+

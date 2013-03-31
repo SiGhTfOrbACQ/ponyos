@@ -188,18 +188,6 @@ uint32_t premultiply(uint32_t color) {
 	return rgba(r,g,b,a);
 }
 
-uint32_t premultiply(uint32_t color) {
-	uint16_t a = _ALP(color);
-	uint16_t r = _RED(color);
-	uint16_t g = _GRE(color);
-	uint16_t b = _BLU(color);
-
-	r = r * a / 256;
-	g = g * a / 256;
-	b = b * a / 256;
-	return rgba(r,g,b,a);
-}
-
 /*
  * based on the blur.c demo for Cairo
  * Copyright © 2008 Kristian Høgsberg
