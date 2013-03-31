@@ -764,7 +764,7 @@ int center_y(int y) {
 }
 
 void display() {
-	draw_fill(ctx, rgb(0,0,0));
+	draw_fill(ctx, rgb(39,55,113));
 	draw_sprite(ctx, sprites[0], center_x(sprites[0]->width), center_y(sprites[0]->height));
 	flip(ctx);
 }
