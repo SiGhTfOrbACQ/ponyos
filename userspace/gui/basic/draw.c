@@ -205,19 +205,19 @@ int main (int argc, char ** argv) {
 	win_use_threaded_handler();
 
 	setup_ttk(wina);
-	ttk_button * button_blue = ttk_new_button("Blue", set_color);
+	ttk_button * button_blue = ttk_new_button("Violet", set_color);
 	ttk_position((ttk_object *)button_blue, decor_left_width + 3, decor_top_height + 3, 100, 20);
-	button_blue->fill_color = rgb(0,0,255);
+	button_blue->fill_color = rgb(212,164,232);
 	button_blue->fore_color = rgb(255,255,255);
 
-	ttk_button * button_green = ttk_new_button("Green", set_color);
+	ttk_button * button_green = ttk_new_button("Dark Blue", set_color);
 	ttk_position((ttk_object *)button_green, decor_left_width + 106, decor_top_height + 3, 100, 20);
-	button_green->fill_color = rgb(0,255,0);
-	button_green->fore_color = rgb(0,0,0);
+	button_green->fill_color = rgb(38,54,112);
+	button_green->fore_color = rgb(255,255,255);
 
-	ttk_button * button_red = ttk_new_button("Red", set_color);
+	ttk_button * button_red = ttk_new_button("Hot Pink", set_color);
 	ttk_position((ttk_object *)button_red, decor_left_width + 209, decor_top_height + 3, 100, 20);
-	button_red->fill_color = rgb(255,0,0);
+	button_red->fill_color = rgb(230,69,139);
 	button_red->fore_color = rgb(255,255,255);
 
 	button_thick = ttk_new_button("Thick", set_thickness_thick);
